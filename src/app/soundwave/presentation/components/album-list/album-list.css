@@ -1,0 +1,13 @@
+.cards-container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+.album{
+  border: solid 1px #000000;
+  border-radius: 10px;
+}

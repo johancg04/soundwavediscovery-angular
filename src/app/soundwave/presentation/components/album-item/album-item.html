@@ -1,0 +1,27 @@
+<mat-card class="album-card">
+  <div class="album-content">
+    <img mat-card-image
+         [src]="album().image[0]['#text']"
+         [alt]="album().name + ' cover'"/>
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title class="title-album">{{ album().name }}</mat-card-title>
+        <mat-card-subtitle>{{ album().artist.name }}</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      <p><span>Rank</span> {{ album().attr.rank }}</p>
+      <p><span>URL</span> {{ album().url }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <a [href]="album().url" class="action-button"
+         mat-button
+         target="_blank">{{ 'album.details' | translate }}</a>
+      <span class="default-spacer"></span>
+      <button (click)="share()" aria-label="Share album data" mat-icon-button class="share-button">
+        {{ 'album.share' | translate }}
+      </button>
+    </mat-card-actions>
+  </div>
+
+</mat-card>

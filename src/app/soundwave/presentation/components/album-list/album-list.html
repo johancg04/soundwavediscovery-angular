@@ -1,0 +1,5 @@
+<div class="cards-container">
+  @for (album of albums(); track album.name) {
+    <app-album-item [album]="album" class="album"/>
+  }
+</div>

@@ -1,0 +1,17 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav-content class="sidenav">
+    <mat-toolbar class="mat-toolbar">
+      <div class="toolbar-left">
+        <img [src]="logoUrl" alt="Sound Wave Discovery" class="toolbar-logo"/>
+        <span class="toolbar-title">Sound Wave Discovery</span>
+      </div>
+      <span class="spacer"></span>
+      <div class="toolbar-right">
+        <app-language-switcher/>
+      </div>
+    </mat-toolbar>
+    <h3>{{'content.title' | translate}}</h3>
+    <app-album-list [albums]="albums()"/>
+    <app-footer/>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,13 @@
+{
+  "content": {
+    "title": "Albums de Musica"
+  },
+  "album": {
+    "details": "Ver Detalles de Album",
+    "share": "Compartir Album"
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados.",
+    "developed": "Desarrollado por"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "content": {
+    "title": "Music Albums"
+  },
+  "album": {
+    "details": "View Album Details",
+    "share": "Share Album"
+  },
+  "footer": {
+    "copyright": "All right reserved.",
+    "developed": "Developed by"
+  }
+}

@@ -5,5 +5,5 @@ export const environment = {
   soundwaveProviderSoundwaveEndpointPath:'?method=tag.gettopalbums&tag=disco&api_key=c2cba89fbf1b1da92835f8a36a898f1b&format=json',
 
   logoProviderApiBaseUrl:'https://img.logo.dev/',
-  logoProviderPublishableKey:'pk_I1p5ChnQTVemRtFb_JsUHw',
+  logoProviderPublishableKey:'',
 };
